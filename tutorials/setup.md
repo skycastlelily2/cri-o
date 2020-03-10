@@ -9,7 +9,7 @@ It is assumed you are running a Linux machine.
   * [Build and Run Dependencies](#build-and-run-dependencies)
     + [Fedora, RHEL 7, CentOS](#fedora--rhel-7--centos)
     + [RHEL 8](#rhel-8)
-    + [Debian Raspbian Ubuntu](#debian-raspbian-ubuntu)
+    + [Debian, Raspbian, Ubuntu](#debian--raspbian--ubuntu)
   * [Get Source Code](#get-source-code)
   * [Build](#build)
     + [Build Tags](#build-tags)
