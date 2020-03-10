@@ -1,9 +1,3 @@
-# Build and install CRI-O from source
-
-This guide will walk you through the installation of [CRI-O](https://github.com/cri-o/cri-o), an Open Container Initiative-based implementation of [Kubernetes Container Runtime Interface](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/container-runtime-interface-v1.md).
-
-It is assumed you are running a Linux machine.
-
 ![CRI-O logo](../logo/crio-logo.svg)
 - [Build and install CRI-O from source](#build-and-install-cri-o-from-source)
   * [Runtime dependencies](#runtime-dependencies)
@@ -25,6 +19,12 @@ It is assumed you are running a Linux machine.
     + [Optional - Modify capabilities and sysctls](#optional---modify-capabilities-and-sysctls)
   * [Starting CRI-O](#starting-cri-o)
   * [Using CRI-O](#using-cri-o)
+
+# Build and install CRI-O from source
+
+This guide will walk you through the installation of [CRI-O](https://github.com/cri-o/cri-o), an Open Container Initiative-based implementation of [Kubernetes Container Runtime Interface](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/container-runtime-interface-v1.md).
+
+It is assumed you are running a Linux machine.
 
 ## Runtime dependencies
 
