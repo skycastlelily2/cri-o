@@ -4,13 +4,12 @@ This guide will walk you through the installation of [CRI-O](https://github.com/
 
 It is assumed you are running a Linux machine.
 
-![CRI-O logo](../logo/crio-logo.svg)
 - [Build and install CRI-O from source](#build-and-install-cri-o-from-source)
   * [Runtime dependencies](#runtime-dependencies)
   * [Build and Run Dependencies](#build-and-run-dependencies)
-    + [Fedora, RHEL 7, CentOS](#fedora,rhel-7,centos)
+    + [Fedora, RHEL 7, CentOS](#fedora--rhel-7--centos)
     + [RHEL 8](#rhel-8)
-    + [Debian,Raspbian,Ubuntu](#debian,raspbian,ubuntu)
+    + [Debian Raspbian Ubuntu](#debian-raspbian-ubuntu)
   * [Get Source Code](#get-source-code)
   * [Build](#build)
     + [Build Tags](#build-tags)
