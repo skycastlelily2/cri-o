@@ -1,10 +1,16 @@
+# Build and install CRI-O from source
+
+This guide will walk you through the installation of [CRI-O](https://github.com/cri-o/cri-o), an Open Container Initiative-based implementation of [Kubernetes Container Runtime Interface](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/container-runtime-interface-v1.md).
+
+It is assumed you are running a Linux machine.
+
 ![CRI-O logo](../logo/crio-logo.svg)
 - [Build and install CRI-O from source](#build-and-install-cri-o-from-source)
   * [Runtime dependencies](#runtime-dependencies)
   * [Build and Run Dependencies](#build-and-run-dependencies)
-    + [Fedora 31 RHEL 7 CentOS](#fedora-31-rhel-7-centos)
-    + [RHEL8](#rhel8)
-    + [Debian Raspbian Ubuntu](#debian-raspbian-ubuntu)
+    + [Fedora, RHEL 7, CentOS](#fedora,rhel-7,centos)
+    + [RHEL 8](#rhel-8)
+    + [Debian,Raspbian,Ubuntu](#debian,raspbian,ubuntu)
   * [Get Source Code](#get-source-code)
   * [Build](#build)
     + [Build Tags](#build-tags)
@@ -20,12 +26,6 @@
   * [Starting CRI-O](#starting-cri-o)
   * [Using CRI-O](#using-cri-o)
 
-# Build and install CRI-O from source
-
-This guide will walk you through the installation of [CRI-O](https://github.com/cri-o/cri-o), an Open Container Initiative-based implementation of [Kubernetes Container Runtime Interface](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/node/container-runtime-interface-v1.md).
-
-It is assumed you are running a Linux machine.
-
 ## Runtime dependencies
 
 - runc, Clear Containers runtime, or any other OCI compatible runtime
@@ -38,7 +38,7 @@ Latest version of `runc` is expected to be installed on the system. It is picked
 ## Build and Run Dependencies
 
 
-### Fedora 31 RHEL 7 CentOS
+### Fedora, RHEL 7, CentOS
 **Required**
 
 Fedora, RHEL<=7, CentOS and related distributions:
@@ -69,7 +69,7 @@ yum install -y \
   btrfs-progs-devel
 ```
 
-### RHEL8
+### RHEL 8
 RHEL 8 distributions:\
 Make sure you are subscribed to the following repositories: \
 BaseOS/x86_64 \
