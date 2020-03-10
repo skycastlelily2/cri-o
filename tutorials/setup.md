@@ -4,6 +4,7 @@ This guide will walk you through the installation of [CRI-O](https://github.com/
 
 It is assumed you are running a Linux machine.
 
+![CRI-O logo](../logo/crio-logo.svg)
 - [Build and install CRI-O from source](#build-and-install-cri-o-from-source)
   * [Runtime dependencies](#runtime-dependencies)
   * [Build and Run Dependencies](#build-and-run-dependencies)
